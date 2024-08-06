@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.btn__wrapper {
+    margin: 100px 600px;
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background-color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button.red {
+    background-color: red;
+}
+.button.black {
+    background-color: black;
+}
+.button.yellow {
+    background-color: yellow;
+}
+.button.pink {
+    background-color: pink;
+}
+.button.orange {
+    background-color: orange;
+}
+.button.blue {
+    background-color: blue;
+}
+
+.button.green {
+    background-color: green;
+}
+
+.button.invalid {
+    background-color: gray;
+}
